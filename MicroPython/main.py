@@ -1,7 +1,7 @@
 """
 Created by: Liya Getachew
 Created on: Oct 2023
-This module is a Micro:bit MicroPython program that displays all 8 colours in sequential order when button is pressed.
+This module is a Micro:bit MicroPython program that displays all colours in sequential order when button is pressed.
 """
 
 from microbit import *
@@ -59,4 +59,3 @@ while True:
         pin15.write_digital(0)
         pin16.write_digital(0)
         display.scroll("Black")
-        sleep(1000)
